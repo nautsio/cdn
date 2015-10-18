@@ -1,0 +1,87 @@
+---
+---
+
+@import "colors";
+
+$backgroundColor: $nauts-blue;
+
+// Primary/body text
+$mainFont: 'Roboto Slab';
+$mainFontSize: 38px;
+$mainColor: $white;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: Montserrat;
+$headingColor: $white;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingTextShadow: none;
+$headingFontWeight: 600;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+// Links and actions
+$linkColor: $orient;
+$linkColorHover: $daintree;
+
+// Code
+$codeBackgroundColor: $white;
+$codeColor: $mine-shaft;
+
+// Text selection
+$selectionBackgroundColor: darken( $linkColor, 25% );
+$selectionColor: $white;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+  background: $backgroundColor;
+}
+
+
+// Theme template ------------------------------
+@import "reveal-theme";
+// ---------------------------------------------
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+div[role=application]:after {
+  background: url({{ site.url }}/img/cargonaut.svg);
+  position: fixed;
+  z-index: 30;
+  width: 26vh;
+  height: 30vh;
+  left: -5vh;
+  bottom: -9vh;
+  -webkit-user-select: none;
+  -ms-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('{{ site.url }}/fonts/montserrat-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('{{ site.url }}/fonts/robotoslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
