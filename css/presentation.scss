@@ -58,6 +58,10 @@ $selectionColor: $white;
   background: transparent;
 }
 
+.reveal section img.header {
+  height: 30vh;
+}
+
 div[role=application]:after {
   background: url({{ site.url }}/img/cargonaut.svg);
   position: fixed;

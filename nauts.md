@@ -1,4 +1,4 @@
-<img src="http://cdn.nauts.io/img/cargonaut.svg" style="height:40vh;">
+<img src="http://cdn.nauts.io/img/cargonaut.svg" class="header">
 # nauts.io
 
 !SUB
