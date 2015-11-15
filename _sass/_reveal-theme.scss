@@ -183,6 +183,7 @@ body {
 }
 .reveal code {
     font-family: monospace;
+    background: $inlineCodeBackgroundColor;
 }
 
 .reveal pre code {
