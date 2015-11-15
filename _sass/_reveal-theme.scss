@@ -3,6 +3,7 @@
 /*********************************************
  * DEFAULT VALUES VARIABLES
  *********************************************/
+$mainFontWeight: normal !default;
 $mainTextAlign: center !default;
 $headingTextAlign: center !default;
 $inlineCodeBackgroundColor: $backgroundColor !default;
@@ -20,7 +21,7 @@ body {
 .reveal {
     font-family: $mainFont;
     font-size: $mainFontSize;
-    font-weight: normal;
+    font-weight: $mainFontWeight;
     color: $mainColor;
 }
 
