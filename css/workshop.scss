@@ -55,10 +55,16 @@ $selectionColor: $white;
 @import "reveal-theme";
 // ---------------------------------------------
 
+.center {
+  text-align: center
+}
+
 .reveal section img {
   border: none;
   box-shadow: none;
   background: transparent;
+  display: block;
+  margin: 0 auto;
 }
 
 .reveal section img.header {
