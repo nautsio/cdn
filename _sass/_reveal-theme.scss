@@ -7,6 +7,7 @@ $mainFontWeight: normal !default;
 $mainTextAlign: center !default;
 $headingTextAlign: center !default;
 $inlineCodeBackgroundColor: $backgroundColor !default;
+$inlineCodeFontSize: 0.9em !default;
 $listDisplay: inline-block !default;
 
 /*********************************************
@@ -184,6 +185,7 @@ body {
 }
 .reveal code {
     font-family: monospace;
+    font-size: $inlineCodeFontSize;
     background: $inlineCodeBackgroundColor;
 }
 
