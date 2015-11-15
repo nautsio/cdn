@@ -1,6 +1,14 @@
 // Base theme template for reveal.js
 
 /*********************************************
+ * DEFAULT VALUES VARIABLES
+ *********************************************/
+$mainTextAlign: center !default;
+$headingTextAlign: center !default;
+$inlineCodeBackgroundColor: $backgroundColor !default;
+$listDisplay: inline-block !default;
+
+/*********************************************
  * GLOBAL STYLES
  *********************************************/
 
@@ -20,6 +28,10 @@ body {
     color: $selectionColor;
     background: $selectionBackgroundColor;
     text-shadow: none;
+}
+
+.reveal .slides {
+    text-align: $mainTextAlign;
 }
 
 .reveal .slides>section,
@@ -48,6 +60,7 @@ body {
 
     text-transform: $headingTextTransform;
     text-shadow: $headingTextShadow;
+    text-align: $headingTextAlign;
 
     word-wrap: break-word;
 }
@@ -90,7 +103,7 @@ body {
 .reveal ol,
 .reveal dl,
 .reveal ul {
-    display: inline-block;
+    display: $listDisplay;
 
     text-align: left;
     margin: 0 0 0 1em;
