@@ -6,6 +6,7 @@
 $mainFontWeight: normal !default;
 $mainTextAlign: center !default;
 $headingTextAlign: center !default;
+$preWidth: 90% !default;
 $inlineCodeBackgroundColor: $backgroundColor !default;
 $inlineCodeFontSize: 0.9em !default;
 $listDisplay: inline-block !default;
@@ -171,7 +172,7 @@ body {
 .reveal pre {
     display: block;
     position: relative;
-    width: 90%;
+    width: $preWidth;
     margin: $blockMargin auto;
 
     text-align: left;
