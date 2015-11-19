@@ -70,6 +70,11 @@ $selectionColor: $white;
   margin: 0 auto;
 }
 
+.reveal section img.noblock {
+  display: inline;
+  height: 20vh;
+}
+
 .reveal section img.header {
   height: 30vh;
 }
