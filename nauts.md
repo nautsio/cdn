@@ -15,8 +15,7 @@ All about data center automation:
 !SUB
 
 ### Want to know / learn more?
-
-- [Official Docker training](https://training.xebia.com/continuous-delivery-devops/introduction-to-docker/)
-- [Open Kitchen - Continuous Delivery Pipeline with Docker](https://xebia.com/events/open-kitchen-continuous-delivery-docker)
-- [Open Kitchen - Building multi-cloud infrastructure with Terraform](https://xebia.com/events/open-kitchen-datacentre-automation-building-multi-cloud-infrastructure-with-terraform)
-- [Meetup Group - Dutch Devops Engineers](http://www.meetup.com/devops-engineers/)
+- [Nauts.io](http://nauts.io)
+- [Official Docker training](https://training.xebia.com/continuous-delivery-devops/introduction-to-docker)
+- [Dutch Devops Engineers Meetup](http://www.meetup.com/devops-engineers)
+- And you can usually find us at the [Docker Randstad Meetups](http://www.meetup.com/Docker-Randstad)
